@@ -12892,5 +12892,55 @@ section {
 }
 /* ------------------------------------------------End localization---------------------------------------------------- */
 
+/* ------------------------------------------------Start portfolio-qualification---------------------------------------------------- */
+@media (min-width: 768px) {
+ 
+}
+#qualification .portfolio-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#qualification .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#qualification .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(255, 200, 0, 0.9);  EDA17F   776363a6 */
+  background: #EDA17Fd9;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+#qualification .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#qualification .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+#qualification .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+#qualification .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#qualification .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/* ------------------------------------------------End portfolio-qualification---------------------------------------------------- */
+
 /* ------------------------------------------------Start---------------------------------------------------- */
 /* ------------------------------------------------End---------------------------------------------------- */
